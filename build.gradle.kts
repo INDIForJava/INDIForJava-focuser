@@ -5,8 +5,8 @@ plugins {
 }
 
 group = "org.indilib.i4j"
-description = "INDIForJava-template"
-version = "x.x.x"
+description = "INDIForJava-focuser"
+version = "2.0.5"
 
 repositories {
     mavenCentral()
@@ -21,7 +21,7 @@ java {
 }
 
 dependencies {
-    api("com.github.INDIForJava:INDIForJava-core:2.0.5")
+    api("com.github.INDIForJava:INDIForJava-driver:2.0.6")
 }
 
 tasks.jar {
@@ -58,7 +58,7 @@ publishing {
             pom {
                 name.set(project.name)
                 description.set("INDIForJava is a set of libraries to implement clients and servers that follow the INDI protocol, designed to operate astronomical instrumentation.")
-                url.set("https://github.com/INDIForJava/INDIForJava-template")
+                url.set("https://github.com/INDIForJava/INDIForJava-focuser")
                 licenses {
                     license {
                         name.set("GNU Lesser General Public License")
@@ -73,9 +73,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection.set("scm:git:git://github.com/INDIForJava/INDIForJava-template.git")
-                    developerConnection.set("scm:git:ssh://github.com/INDIForJava/INDIForJava-template.git")
-                    url.set("https://github.com/INDIForJava/INDIForJava-template")
+                    connection.set("scm:git:git://github.com/INDIForJava/INDIForJava-focuser.git")
+                    developerConnection.set("scm:git:ssh://github.com/INDIForJava/INDIForJava-focuser.git")
+                    url.set("https://github.com/INDIForJava/INDIForJava-focuser")
                 }
             }
         }

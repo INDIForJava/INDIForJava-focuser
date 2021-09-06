@@ -1,1 +1,1 @@
-rootProject.name = "INDIForJava-template"
+rootProject.name = "INDIForJava-focuser"
