@@ -6,7 +6,7 @@ plugins {
 
 group = "org.indilib.i4j"
 description = "INDIForJava-focuser"
-version = "2.0.5"
+version = "2.1.1"
 
 repositories {
     mavenCentral()
@@ -16,12 +16,12 @@ repositories {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
 }
 
 dependencies {
-    api("com.github.INDIForJava:INDIForJava-driver:2.0.6")
+    api("com.github.INDIForJava:INDIForJava-driver:2.1.1")
 }
 
 tasks.jar {
